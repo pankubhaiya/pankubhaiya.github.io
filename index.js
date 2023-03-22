@@ -1,16 +1,16 @@
 $(document).ready(function(){
     $(window).scroll(function(){
         if(this.scrollY > 20){
-            $('.navbar').addClass("sticky");
+            $('#nav-menu').addClass("sticky");
         }else{
-            $('.navbar').removeClass("sticky");
+            $('#nav-menu').removeClass("sticky");
         }
         
     })
 
     // togel/menu nevbar script
     $('.menu-btn').click(function(){
-        $('.navbar .menu').toggleClass("active");
+        $('#nav-menu .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     })
 })
