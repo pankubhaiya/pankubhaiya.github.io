@@ -234,6 +234,9 @@ section .title::after{
 }
 
 /* skell section staarting */
+.skills  .title::after{
+    content: "what i know";
+}
 
 
 
@@ -693,6 +696,7 @@ section .title::after{
         width: 100%;
         margin-bottom: 35px;
      }
+    
 
 }
 
@@ -743,4 +747,11 @@ section .title::after{
         transition: color 0.3s;
         
      }
+     .projects .title::after{
+        content: "";
+        display: none;
+    }
+    .skills  .title::after{
+        content: "what i know";
+    }
 }
