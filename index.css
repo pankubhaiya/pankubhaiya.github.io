@@ -9,6 +9,10 @@
 html{
     scroll-behavior: smooth;
 }
+.link-div{
+    display: flex;
+    
+}
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -377,17 +381,28 @@ section .title::after{
 /* github section start */
 /* * github section -------------- */ 
 #stat{
-    display: flex;
-    /* margin: auto; */
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap: 2rem;
+    /* justify-content: center; */
+    margin-top: 2rem;
+    margin: auto;
 }
-#stat div{
-    margin: 20px;
+#stat div {
+    /* align-items: center; */
+    width: 90%;
+     margin:auto;
+}
+#stat div img{
+  
+    width: 90%;
+  
 }
 .github .title::after{
     content: "My submition";
     background: #444;
-    
+
 }
 .github{
     color: #fff;
@@ -560,6 +575,7 @@ section .title::after{
           padding-right: 0px;
         
     }
+    
 
 }
 @media(max-width: 1200px){
