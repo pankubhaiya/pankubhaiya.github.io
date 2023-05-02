@@ -376,14 +376,23 @@ section .title::after{
 
 /* github section start */
 /* * github section -------------- */ 
-
+#stat{
+    display: flex;
+    /* margin: auto; */
+    justify-content: center;
+}
+#stat div{
+    margin: 20px;
+}
 .github .title::after{
     content: "My submition";
     background: #444;
+    
 }
 .github{
     color: #fff;
-    background:#444;
+
+    background: #444;
 }
 .github .title::before{
     background: #fff;
