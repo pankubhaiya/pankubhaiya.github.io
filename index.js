@@ -1,22 +1,22 @@
 $(document).ready(function(){
     $(window).scroll(function(){
         if(this.scrollY > 20){
-            $('#nav-menu').addClass("sticky");
+            $('#main-nav').addClass("sticky");
         }else{
-            $('#nav-menu').removeClass("sticky");
+            $('#main-nav').removeClass("sticky");
         }
         
     })
 
     // togel/menu nevbar script
     $('.menu-btn').click(function(){
-        $('#nav-menu .menu').toggleClass("active");
+        $('#main-nav .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
 
 
     $('.menu li a').click(function(){
-        $('#nav-menu .menu').toggleClass("active");
+        $('#main-nav .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
 

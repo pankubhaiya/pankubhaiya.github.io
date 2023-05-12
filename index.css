@@ -19,45 +19,45 @@ html{
     margin: auto;
 
 }
-/*#nav-menu styling */
+/*#main-nav styling */
 
-#nav-menu{
+#main-nav{
     position: fixed;
     width: 100%;
     padding: 30px 0;
     z-index: 999;
-    /* background-color: orangered; */
+    /* background-color: skyblue; */
     font-family: 'Ubuntu',sans-serif;
     transition: all 0.3s ease;
 }
-#nav-menu.sticky{
+#main-nav.sticky{
     padding: 15px 0;
-    background-color: orangered;
+    background-color: skyblue;
 
 }
-#nav-menu .max-width{
+#main-nav .max-width{
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
-#nav-menu .logo a{
+#main-nav .logo a{
     color: #fff;
      font-size: 35px;
      font-weight: 600;
 }
-#nav-menu .logo a span{
-    color: orangered;
+#main-nav .logo a span{
+    color: skyblue;
     transition: all 0.3s ease;
 }
-#nav-menu.sticky .logo a span{
+#main-nav.sticky .logo a span{
    color:#fff;
 }
-#nav-menu .menu li{
+#main-nav .menu li{
     list-style: none;
     display: inline-block;
 }
-#nav-menu .menu li a{
+#main-nav .menu li a{
     color: #fff;
     font-size: 18px;
     font-weight: 500px;
@@ -65,11 +65,11 @@ html{
   transition: color 0.3s;
 }
 
-#nav-menu .menu li a:hover{
-      color: orangered;
+#main-nav .menu li a:hover{
+      color: skyblue;
 
 }
-#nav-menu.sticky .menu li a:hover{
+#main-nav.sticky .menu li a:hover{
     color: rgb(14, 14, 14);
     transition: color 0.3s;
     
@@ -112,25 +112,25 @@ html{
 
 }
 .home .home-content .text-3 span{
-    color: orangered;
+    color: skyblue;
     font-weight: 500;
 
 }
 
 .home .home-content a{
     display: inline-block;
-    background: orangered;
+    background: skyblue;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid orangered;
+    border: 2px solid skyblue;
     transition: all 0.4 ease;
 
 }
 .home .home-content a:hover{
-    color:  orangered;
+    color:  skyblue;
     background: none; 
 }
 
@@ -171,7 +171,7 @@ section .title::before{
 }
 section .title::after{
    
-    color: orangered;
+    color: skyblue;
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -212,7 +212,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: orangered;
+    color: skyblue;
 }
 .about .about-content .right p{
     text-align: justify;
@@ -221,28 +221,31 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: orangered;
+    background: skyblue;
     color: #fff;
     font-size: 20px;
     font-weight: 400;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid orangered;
+    border: 2px solid skyblue;
     transition: all 0.4 ease;
 }
 .about .about-content .right a:hover{
     background: none;
-    color: orangered;
+    color: skyblue;
 
 }
 
 /* skell section staarting */
 .skills  .title::after{
     content: "what i know";
+    background: #e5ecf0;
 }
 
-
+#skills{
+    background: #e5ecf0;
+}
 
 #skills-part{
     display: grid;
@@ -250,10 +253,13 @@ section .title::after{
     align-items: center;
     gap: 2.5rem;
     margin-top: 2rem;
+    
+
 }
 .skills-card{
-    background-color: #444;
-    /* background: var(--bg-color); */
+    /* background-color:skyblue; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background: var(--bg-color);
     padding: 35px 25px;
     border-radius: 8px;
     transition: all .45s ease;
@@ -271,7 +277,7 @@ section .title::after{
 .skills-card h3{
     font-size: 24px;
     font-weight: 600;
-    color: var(--text-color);
+    color: black;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -288,24 +294,27 @@ section .title::after{
     transform: translateY(-8px);
     cursor: pointer;
   
-    background-color: orangered;
+    background-color: skyblue;
 }
 
 /* projects section starts */
 .projects .title::after{
     content: "Latest Projects";
-    background:#111;
+    background: #e5ecf0;
 }
 .projects{
-    color: #fff;
-    background: #111;
+    color: #131212;
+    background: #e5ecf0;
 }
 .projects .title::before{
     background: #fff;
 }
 
 .projects .carousel .project-card{
-  background: #333;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: #111;
+    color: #fff;
+    /* text-align: justify; */
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
@@ -315,7 +324,7 @@ section .title::after{
 
 }
 .projects .carousel .project-card:hover{
-    background: orangered;
+    background: skyblue;
 }
 .projects .carousel .project-card:hover .box{
    transform: scale(1.05);
@@ -340,7 +349,7 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid orangered;
+    border: 5px solid skyblue;
     transition: all 0.3s ease;
 }
 
@@ -359,7 +368,7 @@ section .title::after{
     margin: 0 5px;
     outline: none! important;
     border-radius: 50%;
-    border: 2px solid orangered! important;
+    border: 2px solid skyblue! important;
     transition: all 0.3s ease
 
 }
@@ -371,7 +380,7 @@ section .title::after{
 .owl-dot.active,
 
 .owl-dot.active{
-   background-color: orangered! important;
+   background-color: skyblue! important;
 }
 
 
@@ -401,13 +410,12 @@ section .title::after{
 }
 .github .title::after{
     content: "My submition";
-    background: #444;
-
+   
 }
 .github{
-    color: #fff;
+    color: #444;
 
-    background: #444;
+    background:  #fff;
 }
 .github .title::before{
     background: #fff;
@@ -456,7 +464,7 @@ section .title::after{
  }
  .contact .contact-content .row i{
      font-size :25px;
-     color: orangered;
+     color: skyblue;
      transition: all 0.5s ease
  
  }
@@ -521,8 +529,8 @@ section .title::after{
  .contact .right form .button button{
     height: 100%;
     width: 100%;
-    border: 2px solid orangered;
-    background: orangered;
+    border: 2px solid skyblue;
+    background: skyblue;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -532,7 +540,7 @@ section .title::after{
  }
 
  .contact .right form .button button:hover{
-    color: orangered;
+    color: skyblue;
     background: none;
  }
 
@@ -554,7 +562,7 @@ section .title::after{
     border-radius: 8px;
     font-size: 15px;
   
-    background-color: orangered;
+    background-color: skyblue;
     color: #fff;
 }
 
@@ -600,7 +608,7 @@ section .title::after{
         margin-top: 10%;
         margin-bottom: 18%;
     }
-    #nav-menu.sticky .menu li a:hover{
+    #main-nav.sticky .menu li a:hover{
         color:coral;
         transition: color 0.3s;
         
@@ -618,8 +626,8 @@ section .title::after{
           padding-right: 0px;
         
     }
-    #nav-menu.sticky .menu li a:hover{
-        color:orangered;
+    #main-nav.sticky .menu li a:hover{
+        color:skyblue;
         transition: color 0.3s;
         
      }
@@ -642,7 +650,7 @@ section .title::after{
         padding: 0 50px;
      }
 
-     #nav-menu .menu{
+     #main-nav .menu{
         position: fixed;
         height: 100vh;
         width: 100%;
@@ -654,14 +662,14 @@ section .title::after{
         transition: all 0.3s ease;
 
     }
-    #nav-menu .menu.active{
+    #main-nav .menu.active{
         left: 0;
     }
    
-    #nav-menu .menu li{
+    #main-nav .menu li{
         display: block;
     }
-    #nav-menu .menu li a{
+    #main-nav .menu li a{
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
@@ -711,8 +719,8 @@ section .title::after{
         width: 100%;
 
      }
-     #nav-menu.sticky .menu li a:hover{
-        color:orangered;
+     #main-nav.sticky .menu li a:hover{
+        color:skyblue;
         transition: color 0.3s;
         
      }
@@ -745,8 +753,8 @@ section .title::after{
         font-size: 20px;
        
     }
-    #nav-menu.sticky .menu li a:hover{
-        color:orangered;
+    #main-nav.sticky .menu li a:hover{
+        color:skyblue;
         transition: color 0.3s;
         
      }
@@ -767,8 +775,8 @@ section .title::after{
       
     
     }
-    #nav-menu.sticky .menu li a:hover{
-        color:orangered;
+    #main-nav.sticky .menu li a:hover{
+        color:skyblue;
         transition: color 0.3s;
         
      }
