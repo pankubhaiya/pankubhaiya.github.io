@@ -35,7 +35,7 @@ $(document).ready(function(){
         backSpeed:60,
         loop:true
        });
-
+zz
     // owl carousel script
     $('.carousel').owlCarousel({
          margin:20,
