@@ -65,6 +65,18 @@ html{
   transition: color 0.3s;
 }
 
+#resume-button-1{
+    border: none;
+    background-color: skyblue;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500px;
+}
+#resume-button-1:hover{
+    color: rgb(14, 14, 14);
+    transition: color 0.3s;
+}
+
 #main-nav .menu li a:hover{
       color: skyblue;
 
@@ -728,6 +740,15 @@ section .title::after{
      .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
+     }
+
+     #resume-button-1{
+        background: #111;
+        font-size: 23px;
+     }
+     #resume-button-1:hover{
+        color:skyblue;
+        transition: color 0.3s;
      }
     
 
