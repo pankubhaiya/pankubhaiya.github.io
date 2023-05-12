@@ -67,11 +67,15 @@ html{
 
 #resume-button-1{
     border: none;
-    background-color: skyblue;
+    background-color:skyblue;
+    padding: 5px;
+    border-radius: 5px;
     color: #fff;
     font-size: 18px;
     font-weight: 500px;
 }
+
+
 #resume-button-1:hover{
     color: rgb(14, 14, 14);
     transition: color 0.3s;
@@ -238,15 +242,19 @@ section .title::after{
     font-size: 20px;
     font-weight: 400;
     padding: 10px 30px;
-    margin-top: 20px;
+  
     border-radius: 6px;
     border: 2px solid skyblue;
     transition: all 0.4 ease;
 }
+.about .about-content .right button{
+  margin-top: 20px;
+  border: none;
+}
 .about .about-content .right a:hover{
     background: none;
     color: skyblue;
-
+    background: #fff;
 }
 
 /* skell section staarting */
