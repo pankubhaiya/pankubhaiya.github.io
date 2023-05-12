@@ -293,7 +293,7 @@ section .title::after{
 
 /* projects section starts */
 .projects .title::after{
-    content: "What i Provide";
+    content: "Latest Projects";
     background:#111;
 }
 .projects{
@@ -780,3 +780,5 @@ section .title::after{
         content: "what i know";
     }
 }
+
+
