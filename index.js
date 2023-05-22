@@ -64,3 +64,16 @@ $(document).ready(function(){
 });
 
 
+// resume section 
+
+document.getElementById("resume-link-1").onclick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1pX7wcp80LQhXYRixUYHrRsYWCuar0Qh3/view?usp=share_link"
+    );
+  };
+  
+  document.getElementById("resume-link-2").onclick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1pX7wcp80LQhXYRixUYHrRsYWCuar0Qh3/view?usp=share_link"
+    );
+  };
