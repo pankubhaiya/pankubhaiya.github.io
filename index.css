@@ -418,16 +418,20 @@ section .title::after{
     /* justify-content: center; */
     margin-top: 2rem;
     margin: auto;
+    width: 85%;
 }
 #stat div {
     /* align-items: center; */
-    width: 90%;
-     margin:auto;
+    /* width: 70%; */
+     /* margin:auto; */
+     margin-left: 20px;
+     margin-right: 20px;
 }
 #stat div img{
   
-    width: 90%;
-  
+    width: 100%;
+    margin:auto;
+   
 }
 .github .title::after{
     content: "My submition";
@@ -444,6 +448,11 @@ section .title::after{
 .cal{
     margin-top: 5%;
     margin-bottom: 7%;
+}
+.react-activity-calendar{
+    width: 90%;
+    margin: auto;
+    /* height: 10px; */
 }
 
 /* contect sectin css start hare */
