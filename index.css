@@ -65,13 +65,14 @@ html{
   transition: color 0.3s;
 }
 
-#resume-button-1{
+#resume-button-{
     border: none;
-    background-color:skyblue;
-    padding: 10px;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 18px;
+    /* background-color:skyblue; */
+    /* padding: 10px; */
+    /* border-radius: 5px; */
+    /* color: #fff; */
+    /* font-size: 18px; */
+    display: none;
     font-weight: 500px;
 }
 
