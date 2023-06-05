@@ -13,6 +13,13 @@ html{
     display: flex;
     
 }
+.link-div div{
+     margin: 5px;
+}
+.link-div div:hover{
+   background-color: crimson;
+   border-radius: 5px;
+}
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -342,10 +349,13 @@ section .title::after{
   transition: all 0.3s ease;
   margin-bottom: 12%;
   margin-top: 12%;
+  height: 100%;
+  margin: auto;
+  
 
 }
 .projects .carousel .project-card:hover{
-    background: crimson;
+    /* background: crimson; */
 }
 .projects .carousel .project-card:hover .box{
    transform: scale(1.05);
@@ -359,10 +369,15 @@ section .title::after{
      transition: all 0.3s ease;
 }
 .projects .carousel .caproject-cardrd  .text{
+
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+.box p{
+     margin: 5px;
+}
+
 
 .projects .carousel .project-card img{
     
