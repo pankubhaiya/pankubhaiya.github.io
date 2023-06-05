@@ -26,13 +26,13 @@ html{
     width: 100%;
     padding: 30px 0;
     z-index: 999;
-    /* background-color: skyblue; */
+    /* background-color: crimson; */
     font-family: 'Ubuntu',sans-serif;
     transition: all 0.3s ease;
 }
 #main-nav.sticky{
     padding: 15px 0;
-    background-color: skyblue;
+    background-color: crimson;
 
 }
 #main-nav .max-width{
@@ -47,7 +47,7 @@ html{
      font-weight: 600;
 }
 #main-nav .logo a span{
-    color: skyblue;
+    color: crimson;
     transition: all 0.3s ease;
 }
 #main-nav.sticky .logo a span{
@@ -67,7 +67,7 @@ html{
 
 #resume-button-{
     border: none;
-    /* background-color:skyblue; */
+    /* background-color:crimson; */
     /* padding: 10px; */
     /* border-radius: 5px; */
     /* color: #fff; */
@@ -83,7 +83,7 @@ html{
 }
 
 #main-nav .menu li a:hover{
-      color: skyblue;
+      color: crimson;
 
 }
 #main-nav.sticky .menu li a:hover{
@@ -129,25 +129,25 @@ html{
 
 }
 .home .home-content .text-3 span{
-    color: skyblue;
+    color: crimson;
     font-weight: 500;
 
 }
 
 .home .home-content a{
     display: inline-block;
-    background: skyblue;
+    background: crimson;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid skyblue;
+    border: 2px solid crimson;
     transition: all 0.4 ease;
 
 }
 .home .home-content a:hover{
-    color:  skyblue;
+    color:  crimson;
     background: none; 
 }
 
@@ -188,7 +188,7 @@ section .title::before{
 }
 section .title::after{
    
-    color: skyblue;
+    color: crimson;
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -229,7 +229,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: skyblue;
+    color: crimson;
 }
 .about .about-content .right p{
     text-align: justify;
@@ -238,14 +238,14 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: skyblue;
+    background: crimson;
     color: #fff;
     font-size: 20px;
     font-weight: 400;
     padding: 10px 30px;
   
     border-radius: 6px;
-    border: 2px solid skyblue;
+    border: 2px solid crimson;
     transition: all 0.4 ease;
 }
 .about .about-content .right button{
@@ -254,7 +254,7 @@ section .title::after{
 }
 .about .about-content .right a:hover{
     background: none;
-    color: skyblue;
+    color: crimson;
     background: #fff;
 }
 
@@ -278,7 +278,7 @@ section .title::after{
 
 }
 .skills-card{
-    /* background-color:skyblue; */
+    /* background-color:crimson; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     background: var(--bg-color);
     padding: 35px 25px;
@@ -315,7 +315,7 @@ section .title::after{
     transform: translateY(-8px);
     cursor: pointer;
   
-    background-color: skyblue;
+    /* background-color: crimson; */
 }
 
 /* projects section starts */
@@ -345,7 +345,7 @@ section .title::after{
 
 }
 .projects .carousel .project-card:hover{
-    background: skyblue;
+    background: crimson;
 }
 .projects .carousel .project-card:hover .box{
    transform: scale(1.05);
@@ -370,7 +370,7 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid skyblue;
+    border: 5px solid crimson;
     transition: all 0.3s ease;
 }
 
@@ -389,7 +389,7 @@ section .title::after{
     margin: 0 5px;
     outline: none! important;
     border-radius: 50%;
-    border: 2px solid skyblue! important;
+    border: 2px solid crimson! important;
     transition: all 0.3s ease
 
 }
@@ -401,7 +401,7 @@ section .title::after{
 .owl-dot.active,
 
 .owl-dot.active{
-   background-color: skyblue! important;
+   background-color: crimson! important;
 }
 
 
@@ -494,7 +494,7 @@ section .title::after{
  }
  .contact .contact-content .row i{
      font-size :25px;
-     color: skyblue;
+     color: crimson;
      transition: all 0.5s ease
  
  }
@@ -559,8 +559,8 @@ section .title::after{
  .contact .right form .button button{
     height: 100%;
     width: 100%;
-    border: 2px solid skyblue;
-    background: skyblue;
+    border: 2px solid crimson;
+    background: crimson;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -570,7 +570,7 @@ section .title::after{
  }
 
  .contact .right form .button button:hover{
-    color: skyblue;
+    color: crimson;
     background: none;
  }
 
@@ -592,7 +592,7 @@ section .title::after{
     border-radius: 8px;
     font-size: 15px;
   
-    background-color: skyblue;
+    background-color: crimson;
     color: #fff;
 }
 
@@ -657,7 +657,7 @@ section .title::after{
         
     }
     #main-nav.sticky .menu li a:hover{
-        color:skyblue;
+        color:crimson;
         transition: color 0.3s;
         
      }
@@ -750,7 +750,7 @@ section .title::after{
 
      }
      #main-nav.sticky .menu li a:hover{
-        color:skyblue;
+        color:crimson;
         transition: color 0.3s;
         
      }
@@ -765,7 +765,7 @@ section .title::after{
         font-size: 23px;
      }
      #resume-button-1:hover{
-        color:skyblue;
+        color:crimson;
         transition: color 0.3s;
      }
     
@@ -793,7 +793,7 @@ section .title::after{
        
     }
     #main-nav.sticky .menu li a:hover{
-        color:skyblue;
+        color:crimson;
         transition: color 0.3s;
         
      }
@@ -815,7 +815,7 @@ section .title::after{
     
     }
     #main-nav.sticky .menu li a:hover{
-        color:skyblue;
+        color:crimson;
         transition: color 0.3s;
         
      }
