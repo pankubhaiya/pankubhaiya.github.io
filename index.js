@@ -63,7 +63,6 @@ $(document).ready(function(){
 
 });
 
-
 // resume section 
 
 document.getElementById("resume-link-1").onclick = () => {

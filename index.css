@@ -325,6 +325,7 @@ section .title::after{
     /* background-color: crimson; */
 }
 
+
 /* projects section starts */
 .projects .title::after{
     content: "Latest Projects";
