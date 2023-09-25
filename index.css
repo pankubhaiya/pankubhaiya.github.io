@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,13 +12,6 @@ html{
 .link-div{
     display: flex;
     
-}
-.link-div div{
-     margin: 5px;
-}
-.link-div div:hover{
-   background-color: crimson;
-   border-radius: 5px;
 }
 .max-width{
     max-width: 1300px;
@@ -39,7 +32,7 @@ html{
 }
 #main-nav.sticky{
     padding: 15px 0;
-    background-color: crimson;
+    background-color:crimson;
 
 }
 #main-nav .max-width{
@@ -325,7 +318,6 @@ section .title::after{
     /* background-color: crimson; */
 }
 
-
 /* projects section starts */
 .projects .title::after{
     content: "Latest Projects";
@@ -334,6 +326,7 @@ section .title::after{
 .projects{
     color: #131212;
     background: #e5ecf0;
+    
 }
 .projects .title::before{
     background: #fff;
@@ -350,14 +343,8 @@ section .title::after{
   transition: all 0.3s ease;
   margin-bottom: 12%;
   margin-top: 12%;
-  height: 100%;
-  margin: auto;
-  
+}
 
-}
-.projects .carousel .project-card:hover{
-    /* background: crimson; */
-}
 .projects .carousel .project-card:hover .box{
    transform: scale(1.05);
 }
@@ -368,25 +355,37 @@ section .title::after{
      justify-content: center;
      text-align: center;
      transition: all 0.3s ease;
+     /* height: 450px; */
+}
+.box {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+#img-pro{
+    width: 40%;
+    margin: auto;
 }
 .projects .carousel .caproject-cardrd  .text{
-
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.box p{
-     margin: 5px;
+.project-deployed-link:hover{
+  background: crimson;
+  border-radius: 5px;
 }
-
-
+.project-github-link:hover{
+    background: crimson;
+    border-radius: 5px;
+  }
 .projects .carousel .project-card img{
     
-    height: 150px;
-    width: 150px;
+    height: auto;
+    width: 100%;
     object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid crimson;
+    border-radius: 5px;
+    border: 3px solid crimson;
     transition: all 0.3s ease;
 }
 
@@ -804,6 +803,10 @@ section .title::after{
       
     
     }
+    .home {
+        background: rgb(108,102,102);
+        background: linear-gradient(90deg, rgb(27, 27, 27) 0%, rgb(57, 57, 59) 19%, rgb(52, 55, 56) 54%, rgb(48, 46, 46) 100%);
+    }
     .home .home-content a{
         font-size: 20px;
        
@@ -843,5 +846,3 @@ section .title::after{
         content: "what i know";
     }
 }
-
-
