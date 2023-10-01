@@ -363,7 +363,7 @@ section .title::after{
     margin: auto;
 }
 #img-pro{
-    width: 40%;
+    width: 100%;
     margin: auto;
 }
 .projects .carousel .caproject-cardrd  .text{
