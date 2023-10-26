@@ -1,10 +1,9 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        if(this.scrollY > 25){
+        if(this.scrollY > 20){
             $('#main-nav').addClass("sticky");
         }else{
-            // $('#main-nav').removeClass("sticky");
-            $('#main-nav').addClass("sticky");
+            $('#main-nav').removeClass("sticky");
         }
         
     })
@@ -38,26 +37,26 @@ $(document).ready(function(){
        });
 
     // owl carousel script
-    // $('.carousel').owlCarousel({
-    //      margin:20,
-    //     //  loop:true,
-    //      autoplayTimeOut:2000,
-    //      autoplayHoverPause:true,
-    //      responsive:{
-    //         0:{
-    //             items:1,
-    //             nav:false
-    //         },
-    //         600:{
-    //             items:1,
-    //             nav:false
-    //         },
-    //         1000:{
-    //             items:4,
-    //             nav:false
-    //         }
-    //      }
-    // })
+    $('.carousel').owlCarousel({
+         margin:20,
+         loop:true,
+         autoplayTimeOut:2000,
+         autoplayHoverPause:true,
+         responsive:{
+            0:{
+                items:1,
+                nav:false
+            },
+            600:{
+                items:1,
+                nav:false
+            },
+            1000:{
+                items:3,
+                nav:false
+            }
+         }
+    })
 
 
 
