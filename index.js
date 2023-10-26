@@ -39,7 +39,7 @@ $(document).ready(function(){
     // owl carousel script
     $('.carousel').owlCarousel({
          margin:20,
-         loop:true,
+        //  loop:true,
          autoplayTimeOut:2000,
          autoplayHoverPause:true,
          responsive:{
@@ -51,8 +51,8 @@ $(document).ready(function(){
                 items:1,
                 nav:false
             },
-            1000:{
-                items:3,
+            1200:{
+                items:4,
                 nav:false
             }
          }

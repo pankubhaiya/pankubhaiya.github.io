@@ -318,7 +318,110 @@ section .title::after{
     /* background-color: crimson; */
 }
 
-z
+/* projects section starts */
+.projects .title::after{
+    content: "Latest Projects";
+    background: #e5ecf0;
+}
+.projects{
+    color: #131212;
+    background: #e5ecf0;
+    
+}
+.projects .title::before{
+    background: #fff;
+}
+
+.projects .carousel .project-card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: #111;
+    color: #fff;
+    /* text-align: justify; */
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  transition: all 0.3s ease;
+  margin-bottom: 12%;
+  margin-top: 12%;
+}
+
+.projects .carousel .project-card:hover .box{
+   transform: scale(1.05);
+}
+.projects .carousel .project-card .box{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     transition: all 0.3s ease;
+     /* height: 450px; */
+}
+.box {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+#img-pro{
+    width: 90%;
+    margin: auto;
+    height: 300px;
+}
+.projects .carousel .caproject-cardrd  .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.project-deployed-link:hover{
+  background: crimson;
+  border-radius: 5px;
+}
+.project-github-link:hover{
+    background: crimson;
+    border-radius: 5px;
+  }
+.projects .carousel .project-card img{
+    
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 3px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.projects .carousel .project-card:hover img{
+    border-color: #fff;
+}
+
+.owl-dots{
+   text-align: center;
+   margin-top: 20px;
+
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none! important;
+    border-radius: 50%;
+    border: 2px solid crimson! important;
+    transition: all 0.3s ease
+
+}
+
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+
+.owl-dot.active{
+   background-color: crimson! important;
+}
+
+
+
 
 
 /* github section start */
